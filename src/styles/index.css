@@ -1,0 +1,343 @@
+@import './tokens.css';
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@layer base {
+  *,
+  *::before,
+  *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    -webkit-text-size-adjust: 100%;
+    text-rendering: optimizeLegibility;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+  }
+
+  /* NOTE: never set html,body { height:100% } — it breaks long/sticky sections (platform gotcha). */
+  body {
+    margin: 0;
+    background-color: var(--color-background);
+    color: var(--color-text);
+    font-family: var(--font-body);
+    font-size: 16px;
+    line-height: 1.7;
+    overflow-x: hidden;
+  }
+
+  h1,
+  h2,
+  h3,
+  h4 {
+    font-family: var(--font-display);
+    font-weight: 400;
+    margin: 0;
+    letter-spacing: 0.05em;
+  }
+
+  p {
+    margin: 0;
+  }
+
+  a {
+    color: inherit;
+    text-decoration: none;
+  }
+
+  button {
+    font-family: var(--font-body);
+    cursor: pointer;
+  }
+
+  img,
+  video {
+    display: block;
+    max-width: 100%;
+  }
+
+  /* When Lenis is active, html gets this class; under reduced-motion Lenis is disabled. */
+  html.lenis,
+  html.lenis body {
+    height: auto;
+  }
+  .lenis.lenis-smooth {
+    scroll-behavior: auto !important;
+  }
+  .lenis.lenis-smooth [data-lenis-prevent] {
+    overscroll-behavior: contain;
+  }
+  .lenis.lenis-stopped {
+    overflow: hidden;
+  }
+}
+
+@layer components {
+  /* --- Shared editorial micro-label (DM Sans uppercase, tracked) --- */
+  .eyebrow {
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 11px;
+    font-weight: 500;
+    line-height: 1.4;
+  }
+  @media (min-width: 768px) {
+    .eyebrow {
+      font-size: 12px;
+    }
+  }
+
+  /* --- Shared CTA button spec (research-brief §5) — sharp 0px, equal height/min-width --- */
+  .da-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    height: 48px;
+    padding: 0 28px;
+    border-radius: var(--radius-sm);
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 12px;
+    font-weight: 500;
+    border: 1px solid transparent;
+    transition: background-color 0.2s ease, color 0.2s ease, border-color 0.2s ease,
+      opacity 0.2s ease;
+    white-space: nowrap;
+  }
+  @media (min-width: 768px) {
+    .da-btn {
+      height: 52px;
+      padding: 0 32px;
+      min-width: 220px;
+      font-size: 13px;
+    }
+  }
+  .da-btn-primary {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    border-color: var(--color-secondary);
+  }
+  .da-btn-primary:hover {
+    background-color: #000;
+  }
+  /* Primary CTA over a dark ground inverts to cream fill + charcoal text. */
+  .da-btn-primary-invert {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+    border-color: var(--color-primary);
+  }
+  .da-btn-primary-invert:hover {
+    background-color: #fff;
+  }
+  .da-btn-outline {
+    background-color: transparent;
+    color: var(--color-secondary);
+    border-color: var(--color-secondary);
+  }
+  .da-btn-outline:hover {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+  }
+  /* Outline over a dark ground (cream outline + cream text). */
+  .da-btn-outline-invert {
+    background-color: transparent;
+    color: var(--color-primary);
+    border-color: var(--color-primary);
+  }
+  .da-btn-outline-invert:hover {
+    background-color: var(--color-primary);
+    color: var(--color-secondary);
+  }
+  /* Outline over hero image (white outline + white text). */
+  .da-btn-outline-white {
+    background-color: rgba(26, 26, 26, 0.15);
+    backdrop-filter: blur(2px);
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0.85);
+  }
+  .da-btn-outline-white:hover {
+    background-color: #fff;
+    color: var(--color-secondary);
+  }
+  /* Sanctioned gold-outline CTA over the dark wardrobe register (brief §3.4/§3.16). */
+  .da-btn-gold {
+    background-color: transparent;
+    color: var(--color-gold-soft);
+    border-color: var(--color-gold);
+    box-shadow: 0 0 0 0 rgba(201, 162, 75, 0);
+    transition: background-color 0.25s ease, color 0.25s ease, border-color 0.25s ease,
+      box-shadow 0.25s ease;
+  }
+  .da-btn-gold:hover {
+    background-color: var(--color-gold);
+    color: var(--color-walnut-deep);
+    box-shadow: 0 0 22px 0 rgba(201, 162, 75, 0.35);
+  }
+  .da-btn-gold-fill {
+    background-color: var(--color-gold);
+    color: var(--color-walnut-deep);
+    border-color: var(--color-gold);
+  }
+  .da-btn-gold-fill:hover {
+    background-color: var(--color-gold-soft);
+  }
+  /* Disabled state shared by every CTA. */
+  .da-btn:disabled {
+    opacity: 0.45;
+    cursor: not-allowed;
+  }
+
+  /* --- Bracketed editorial text-link (Buck Mason) --- */
+  .da-bracket-link {
+    display: inline-flex;
+    align-items: center;
+    font-family: var(--font-body);
+    text-transform: uppercase;
+    letter-spacing: 0.15em;
+    font-size: 11px;
+    font-weight: 500;
+    color: var(--color-secondary);
+    transition: opacity 0.2s ease;
+  }
+  @media (min-width: 768px) {
+    .da-bracket-link {
+      font-size: 12px;
+    }
+  }
+  .da-bracket-link .bracket {
+    opacity: 0.5;
+  }
+  .da-bracket-link .da-bracket-label {
+    padding: 0 4px;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.2s ease;
+  }
+  .da-bracket-link:hover .da-bracket-label {
+    border-bottom-color: currentColor;
+  }
+
+  /* Section vertical rhythm (research-brief §5: --space-2xl desktop / 64px mobile) */
+  .section-pad {
+    padding-top: 64px;
+    padding-bottom: 64px;
+  }
+  @media (min-width: 768px) {
+    .section-pad {
+      padding-top: var(--space-2xl);
+      padding-bottom: var(--space-2xl);
+    }
+  }
+
+  .container-site {
+    width: 100%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 24px;
+    padding-right: 24px;
+  }
+  @media (min-width: 768px) {
+    .container-site {
+      padding-left: 48px;
+      padding-right: 48px;
+    }
+  }
+}
+
+@layer utilities {
+  .text-balance {
+    text-wrap: balance;
+  }
+  /* Hide scrollbar on the mobile chip strip while keeping scroll. */
+  .no-scrollbar::-webkit-scrollbar {
+    display: none;
+  }
+  .no-scrollbar {
+    -ms-overflow-style: none;
+    scrollbar-width: none;
+  }
+}
+
+/* --- Plain CSS keyframes (never JS-driven), paused under reduced-motion --- */
+@keyframes ken-burns {
+  0% {
+    transform: scale(1);
+  }
+  100% {
+    transform: scale(1.04);
+  }
+}
+@keyframes scroll-cue-pulse {
+  0%,
+  100% {
+    opacity: 0.4;
+  }
+  50% {
+    opacity: 1;
+  }
+}
+@keyframes da-fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(6px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+@keyframes hotspot-pulse {
+  0%,
+  100% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.12);
+  }
+}
+@keyframes ken-burns-slow {
+  0% {
+    transform: scale(1.08);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+.anim-hotspot {
+  animation: hotspot-pulse 1.8s ease-in-out infinite;
+  will-change: transform;
+}
+.anim-ken-burns-in {
+  animation: ken-burns-slow 6s ease-out forwards;
+  will-change: transform;
+}
+
+.anim-ken-burns {
+  animation: ken-burns 12s ease-in-out infinite alternate;
+  will-change: transform;
+}
+.anim-scroll-cue {
+  animation: scroll-cue-pulse 1.5s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .anim-ken-burns,
+  .anim-ken-burns-in,
+  .anim-scroll-cue,
+  .anim-hotspot {
+    animation: none !important;
+    transform: none !important;
+  }
+  *,
+  *::before,
+  *::after {
+    scroll-behavior: auto !important;
+  }
+}

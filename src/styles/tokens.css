@@ -1,0 +1,56 @@
+/* tokens.css — DA' (Dolce Attires) design tokens.
+   Palette from brand-guidelines §11 (do not invent). Shape language (--radius-*) from
+   research-brief §0/§5: SHARP / straight 0px corners everywhere — the brief explicitly
+   overrides the 2–6px brand-guidelines defaults for the editorial quiet-luxury register
+   (all five fashion peers measured 0px). The ONLY rounded elements site-wide are the
+   functional circular color/avatar dots (--radius-full), an explicit scoped exception. */
+
+:root {
+  /* --- Palette (brand-guidelines §11) --- */
+  --color-primary: #f5f0e8; /* cream */
+  --color-primary-hover: #ede7da;
+  --color-secondary: #1a1a1a; /* deep black */
+  --color-accent: #1b2a4a; /* navy */
+  --color-background: #fafaf8; /* near-white warm neutral */
+  --color-surface: #f0eeea; /* card/section surface */
+  --color-text: #2c2c2c; /* charcoal body text */
+  --color-text-muted: #9a9590; /* muted text */
+  --color-hairline: #e3ded3; /* cream-toned hairline border */
+  --color-star: #e7b45a; /* reviews-only gold star */
+
+  /* --- Typography --- */
+  --font-display: 'Cormorant Garamond', Georgia, serif;
+  --font-body: 'DM Sans', system-ui, sans-serif;
+
+  /* --- Spacing (8px base) --- */
+  --space-xs: 4px;
+  --space-sm: 8px;
+  --space-md: 16px;
+  --space-lg: 32px;
+  --space-xl: 64px;
+  --space-2xl: 128px;
+
+  --radius-sm: 8px;
+  --radius-md: 12px;
+  --radius-lg: 16px;
+  --radius-full: 9999px;
+  --radius-button: 8px;
+  --radius-card: 12px;
+  --radius-input: 8px;
+
+  /* --- The Wardrobe dark register (research-brief §3.16 — dark walnut / marble / gold) --- */
+  --color-walnut: #2b1d14; /* deep walnut ground */
+  --color-walnut-deep: #1b120c; /* darkest panel */
+  --color-gold: #c9a24b; /* sanctioned gold accent — rails, active hotspot, CTA borders */
+  --color-gold-soft: #d8bd86;
+  --color-ivory: #f3ede1; /* ivory text on the dark stage */
+
+  /* --- Shadows (warm-toned; used only on sticky nav solid state + mobile overlay) --- */
+  --shadow-primary: 0 4px 24px rgba(26, 26, 26, 0.08);
+  --shadow-dark: 0 8px 40px rgba(0, 0, 0, 0.5);
+
+  /* --- Motion (research-brief §4) --- */
+  --ease-quint: cubic-bezier(0.22, 1, 0.36, 1);
+  --nav-height: 64px;
+  --nav-height-mobile: 56px;
+}

@@ -1,0 +1,502 @@
+{
+  "brand": {
+    "name": "DA'",
+    "fullName": "Dolce Attires",
+    "location": "Mauritius",
+    "whatsappNumber": "23059102655",
+    "whatsappDisplay": "+230 5910 2655",
+    "whatsappShort": "59102655",
+    "whatsappPrefill": "Hi Dolce Attires, I'd like to ask about…",
+    "instagram": "https://www.instagram.com/dolce_attires/",
+    "instagramHandle": "@dolce_attires",
+    "facebook": "https://www.facebook.com/profile.php?id=61555888167318",
+    "email": "",
+    "currencyNote": "Prices in Rs (MUR)",
+    "currencyCode": "MUR",
+    "currencySymbol": "Rs"
+  },
+
+  "nav": {
+    "wordmark": "DA'",
+    "shopLabel": "Shop",
+    "links": [
+      { "label": "Home", "to": "/" },
+      { "label": "Shop", "mega": true },
+      { "label": "The Wardrobe", "to": "/wardrobe" },
+      { "label": "About", "to": "/about" },
+      { "label": "Contact", "to": "/contact" }
+    ],
+    "megaMenu": {
+      "intro": "Considered linen essentials — for him and for her.",
+      "image": "brand_assets/images/linen-essentials-editorial-portrait-02.webp",
+      "imageAlt": "Dolce Attires linen essentials, editorial styling",
+      "imageCaption": "The Linen Edit",
+      "viewAllMen": "View all Men",
+      "viewAllWomen": "View all Women",
+      "emptyLeafNote": "Arriving soon"
+    },
+    "searchLabel": "Search",
+    "cartLabel": "Cart",
+    "menuLabel": "Menu",
+    "closeLabel": "Close"
+  },
+
+  "hero": {
+    "eyebrow": "DOLCE ATTIRES — MAURITIUS",
+    "headline": "Timeless Elegance.\nModern Luxury.",
+    "subhead": "Designed for those who appreciate refinement.",
+    "primaryCtaLabel": "Shop Collection",
+    "primaryCtaAnchor": "#best-sellers",
+    "secondaryCtaLabel": "Enter The Wardrobe",
+    "secondaryCtaTo": "/wardrobe",
+    "image": "brand_assets/images/hero-linen-editorial-landscape-01.webp",
+    "imageMobile": "brand_assets/images/linen-outfit-model-portrait-10.webp",
+    "imageAlt": "Cream linen essentials in a sunlit, minimalist interior",
+    "scrollCue": "Scroll"
+  },
+
+  "bestSellers": {
+    "eyebrow": "BEST SELLERS",
+    "heading": "Most Loved",
+    "subhead": "The pieces our community returns to, season after season.",
+    "quickViewLabel": "Quick view",
+    "viewAllLabel": "View all",
+    "prevLabel": "Previous",
+    "nextLabel": "Next",
+    "emptyTitle": "The collection is being prepared",
+    "emptyBody": "New pieces are arriving shortly. Reach us on WhatsApp for what's available now."
+  },
+
+  "deals": {
+    "eyebrow": "DEALS OF THE DAY",
+    "heading": "Exceptional pieces, exclusive prices.",
+    "subhead": "A considered selection, refreshed daily.",
+    "ctaLabel": "Shop the Deal",
+    "timerLabels": { "days": "Days", "hours": "Hours", "minutes": "Minutes", "seconds": "Seconds" },
+    "originalLabel": "Was",
+    "saleLabel": "Now",
+    "curatedEyebrow": "TODAY'S EDIT",
+    "curatedHeading": "Today's Edit",
+    "curatedBody": "A single piece, considered and chosen for today. A new selection arrives each morning.",
+    "curatedCtaLabel": "View the piece"
+  },
+
+  "wardrobePreview": {
+    "eyebrow": "THE WARDROBE",
+    "heading": "Step Inside",
+    "body": "A luxury shopping experience beyond traditional e-commerce — explore the collection inside a private, curated wardrobe.",
+    "ctaLabel": "Enter The Wardrobe",
+    "ctaTo": "/wardrobe",
+    "image": "brand_assets/images/wardrobe-interior-teaser-landscape-01.webp",
+    "imageAlt": "A dark walnut walk-in wardrobe, linen pieces softly lit"
+  },
+
+  "brandStory": {
+    "eyebrow": "OUR PHILOSOPHY",
+    "statement": "Picture this: a wardrobe built on timeless, quality essentials.\nFewer, better items.",
+    "body": "Quality over quantity. We make a small, considered range of linen and essential pieces — breathable, understated, and built to be worn for years, not seasons. Premium craftsmanship, ordered directly, without the premium markup.",
+    "ctaLabel": "Read our story",
+    "ctaTo": "/about",
+    "image": "brand_assets/images/editorial-shoot-portrait-08.webp",
+    "imageAlt": "Behind the scenes — models in linen, warm natural light"
+  },
+
+  "featuredCollections": {
+    "eyebrow": "COLLECTIONS",
+    "heading": "Curated Collections",
+    "cardCtaLabel": "Explore",
+    "cards": [
+      {
+        "title": "Signature Series",
+        "subtitle": "Defining pieces",
+        "image": "brand_assets/images/quarter-zip-product-portrait-09.webp",
+        "imageAlt": "The Signature Series collection",
+        "to": "/men"
+      },
+      {
+        "title": "Winter Drop",
+        "subtitle": "Cold-weather essentials",
+        "image": "brand_assets/images/winter-collection-editorial-portrait-05.webp",
+        "imageAlt": "Winter Drop collection",
+        "to": "/men"
+      },
+      {
+        "title": "Summer Essentials",
+        "subtitle": "For the island's warm days",
+        "image": "brand_assets/images/linen-essentials-editorial-portrait-02.webp",
+        "imageAlt": "Summer linen essentials",
+        "to": "/men"
+      }
+    ]
+  },
+
+  "signatureLooks": {
+    "eyebrow": "SIGNATURE LOOKS",
+    "heading": "Complete the Look",
+    "subhead": "Curated outfits, styled the way they're meant to be worn.",
+    "hotspotLabel": "View piece",
+    "looks": [
+      {
+        "title": "Refined Leisure",
+        "note": "A crisp linen shirt and relaxed striped trousers — effortless, old-money ease.",
+        "image": "brand_assets/images/striped-pants-model-portrait-04.webp",
+        "imageAlt": "Styled look — striped trousers and linen shirt"
+      },
+      {
+        "title": "The Everyday Set",
+        "note": "Soft linen layers for warm days and slow evenings.",
+        "image": "brand_assets/images/linen-outfit-model-portrait-10.webp",
+        "imageAlt": "Complete linen outfit, refined leisure"
+      }
+    ]
+  },
+
+  "limitedRelease": {
+    "eyebrow": "LIMITED RELEASE",
+    "heading": "Signature Series",
+    "scarcityLine": "Available only to members of the inner circle. A limited run.",
+    "image": "brand_assets/images/winter-collection-editorial-portrait-05.webp",
+    "imageAlt": "Signature Series — limited release teaser",
+    "launchDate": "2026-07-15T19:00:00+04:00",
+    "launchNote": "Launch date is a placeholder — set the real drop date in content.json.",
+    "timerLabels": { "days": "Days", "hours": "Hours", "minutes": "Minutes", "seconds": "Seconds" },
+    "formPlaceholder": "Email address",
+    "ctaLabel": "Join the Waitlist",
+    "successMessage": "You're on the list — we'll be in touch first.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "invalidMessage": "Please enter a valid email address."
+  },
+
+  "lookbook": {
+    "eyebrow": "LOOKBOOK",
+    "heading": "The Campaign",
+    "ctaLabel": "View Full Lookbook",
+    "ctaTo": "/wardrobe",
+    "pullQuote": "Refined leisure — effortless charm in a crisp linen shirt.",
+    "frames": [
+      { "image": "brand_assets/images/editorial-shoot-portrait-08.webp", "alt": "Editorial — linen in natural light", "caption": "Shot on the island" },
+      { "image": "brand_assets/images/linen-essentials-editorial-portrait-02.webp", "alt": "Linen essentials editorial", "caption": "The Linen Edit" },
+      { "image": "brand_assets/images/striped-pants-model-portrait-04.webp", "alt": "Styled striped trousers", "caption": "Refined leisure" }
+    ],
+    "credit": "Dolce Attires · Mauritius"
+  },
+
+  "testimonials": {
+    "eyebrow": "WHAT CUSTOMERS SAY",
+    "heading": "Reviews",
+    "aggregatePrefix": "Based on",
+    "aggregateSuffix": "Google reviews",
+    "googleLabel": "Google Reviews",
+    "emptyTitle": "Reviews coming soon",
+    "emptyBody": "We're collecting verified Google reviews from our customers. Be among the first to share your experience — until then, find us on Instagram @dolce_attires or message us on WhatsApp.",
+    "emptyCtaLabel": "See us on Instagram",
+    "leaveReviewLabel": "Leave a review"
+  },
+
+  "newsletter": {
+    "eyebrow": "MEMBERS",
+    "heading": "Join The Inner Circle",
+    "body": "Private access to new drops, restocks and limited releases — before anyone else. No noise.",
+    "placeholder": "Email address",
+    "ctaLabel": "Subscribe",
+    "privacyNote": "We respect your inbox. Unsubscribe anytime.",
+    "successMessage": "Welcome to the inner circle.",
+    "errorMessage": "Something went wrong. Please try again.",
+    "invalidMessage": "Please enter a valid email address."
+  },
+
+  "footer": {
+    "wordmark": "DA'",
+    "fullName": "Dolce Attires",
+    "blurb": "Quietly luxurious linen essentials, made for the island. Timeless pieces, ordered directly.",
+    "columns": [
+      {
+        "title": "Shop",
+        "links": [
+          { "label": "Men", "to": "/men" },
+          { "label": "Women", "to": "/women" },
+          { "label": "The Wardrobe", "to": "/wardrobe" },
+          { "label": "All Pieces", "to": "/men" }
+        ]
+      },
+      {
+        "title": "Brand",
+        "links": [
+          { "label": "About", "to": "/about" },
+          { "label": "Lookbook", "to": "/wardrobe" },
+          { "label": "Contact", "to": "/contact" }
+        ]
+      },
+      {
+        "title": "Help",
+        "links": [
+          { "label": "Shipping & Delivery", "to": "/contact" },
+          { "label": "Returns", "to": "/contact" },
+          { "label": "Size Guide", "to": "/contact" },
+          { "label": "FAQ", "to": "/contact" }
+        ]
+      },
+      {
+        "title": "Connect",
+        "links": [
+          { "label": "Instagram", "external": "https://www.instagram.com/dolce_attires/" },
+          { "label": "Facebook", "external": "https://www.facebook.com/profile.php?id=61555888167318" },
+          { "label": "WhatsApp", "external": "https://wa.me/23059102655" }
+        ]
+      }
+    ],
+    "newsletterHeading": "Join The Inner Circle",
+    "newsletterPlaceholder": "Email address",
+    "newsletterButton": "Subscribe",
+    "legal": "© 2026 Dolce Attires · Mauritius",
+    "localeNote": "Prices in Rs (MUR)",
+    "policyLinks": [
+      { "label": "Privacy", "to": "/contact" },
+      { "label": "Terms", "to": "/contact" }
+    ]
+  },
+
+  "shop": {
+    "allChipLabel": "All",
+    "filterLabel": "Filter",
+    "sortLabel": "Sort",
+    "resultsSuffix": "pieces",
+    "resultSuffixSingular": "piece",
+    "emptyTitle": "Pieces arriving soon",
+    "emptyBody": "These pieces are arriving soon — explore the full collection in the meantime.",
+    "emptyCtaLabel": "View all pieces",
+    "men": {
+      "eyebrow": "MEN",
+      "heading": "Men",
+      "intro": "Linen essentials cut for relaxed, put-together ease."
+    },
+    "women": {
+      "eyebrow": "WOMEN",
+      "heading": "Women",
+      "intro": "Refined linen pieces for effortless, timeless style."
+    }
+  },
+
+  "productCard": {
+    "eyebrow": "LINEN ESSENTIALS",
+    "addToCartLabel": "Add to Cart",
+    "preorderLabel": "Pre-order",
+    "preorderPrimaryLabel": "Pre-order — we'll confirm by email/WhatsApp",
+    "quickViewLabel": "Quick view",
+    "whatsappLabel": "Ask about this piece",
+    "colorLabelPrefix": "Colour",
+    "sizeLabelPrefix": "Size",
+    "selectColorPrompt": "Select a colour",
+    "selectSizePrompt": "Select a size",
+    "soldOutLabel": "Sold out",
+    "fromLabel": "From",
+    "dutiesNote": "Island delivery across Mauritius · Custom sizing on request",
+    "accordion": [
+      {
+        "title": "Details",
+        "body": "Premium linen, cut for relaxed, put-together ease. A breathable everyday essential, better with every wear. Available in our limited island palette."
+      },
+      {
+        "title": "Size & Fit",
+        "body": "True-to-size, relaxed cut. Sizes S–XL. Custom sizing and colour requests are welcome — message us on WhatsApp."
+      },
+      {
+        "title": "Shipping & Delivery",
+        "body": "Island delivery across Mauritius. For delivery times, custom orders or pre-orders, reach us on WhatsApp at +230 5910 2655."
+      }
+    ],
+    "preorderHeading": "Pre-order this piece",
+    "preorderIntro": "Tell us where to reach you and we'll confirm your pre-order on WhatsApp 59102655.",
+    "preorderNameLabel": "Full name",
+    "preorderEmailLabel": "Email",
+    "preorderPhoneLabel": "Phone (WhatsApp)",
+    "preorderNoteLabel": "Note (optional)",
+    "preorderSubmitLabel": "Place pre-order",
+    "preorderSubmittingLabel": "Placing…",
+    "preorderSuccessTitle": "Pre-order received",
+    "preorderSuccessBody": "Thank you — we'll confirm the details on WhatsApp 59102655 shortly.",
+    "preorderErrorPrefix": "We couldn't place your pre-order just now.",
+    "preorderEmailInvalid": "Please enter a valid email.",
+    "preorderNameRequired": "Please enter your name.",
+    "preorderClose": "Close",
+    "notFoundTitle": "Piece not found",
+    "notFoundBody": "This piece may have moved. Explore the full collection.",
+    "notFoundCtaLabel": "Back to the collection",
+    "checkoutManualNote": "Final payment is arranged via the store's manual method or on WhatsApp — we'll confirm before any charge."
+  },
+
+  "wardrobe": {
+    "eyebrow": "THE WARDROBE",
+    "heading": "Step Inside the House",
+    "intro": "A private wardrobe, curated and lit like a fashion house showroom. Explore the collection the way it's meant to be discovered.",
+    "enterLabel": "Enter",
+    "entranceImage": "brand_assets/images/wardrobe-entrance-doors-landscape-01.webp",
+    "entranceImageMobile": "brand_assets/images/wardrobe-interior-portrait-01.webp",
+    "entranceImageAlt": "Dark walnut wardrobe doors, a glow of light at the seam",
+    "shopTheLookLabel": "Shop The Look",
+    "exploreLabel": "Explore Collection",
+    "futureNote": "A fully interactive 3D wardrobe experience is coming. This is the beginning.",
+    "wings": [
+      {
+        "id": "men",
+        "eyebrow": "MEN'S WARDROBE",
+        "title": "The Gentleman's Wing",
+        "note": "Linen shirts, tailored trousers and knit layers — the foundation of a considered wardrobe.",
+        "image": "brand_assets/images/wardrobe-mens-wing-landscape-01.webp",
+        "imageAlt": "Men's wing — navy and cream linen on lit walnut shelving",
+        "to": "/men",
+        "groups": ["Tops", "Bottoms"]
+      },
+      {
+        "id": "women",
+        "eyebrow": "WOMEN'S WARDROBE",
+        "title": "The Atelier Wing",
+        "note": "Blouses, flowing trousers and elegant essentials — refined, never overstated.",
+        "image": "brand_assets/images/wardrobe-womens-wing-landscape-01.webp",
+        "imageAlt": "Women's wing — ivory linen, full-length mirror, backlit marble",
+        "to": "/women",
+        "groups": ["Tops", "Bottoms"]
+      }
+    ]
+  },
+
+  "about": {
+    "eyebrow": "ABOUT",
+    "manifesto": "Dolce Attires began with a simple idea: that you need fewer things, made better. We design a small, considered range of linen essentials in Mauritius — breathable, understated, and built to last.",
+    "sections": [
+      {
+        "id": "story",
+        "eyebrow": "OUR STORY",
+        "title": "Made for the island",
+        "body": "We started where we live — on a warm island where linen makes sense. What began as a few well-made shirts shared between friends became a quiet pursuit of the perfect everyday essential. No middleman, no markup, no noise. Just pieces we'd want to wear ourselves.",
+        "image": "brand_assets/images/editorial-shoot-portrait-08.webp",
+        "imageAlt": "Dolce Attires editorial — linen in natural light"
+      },
+      {
+        "id": "vision",
+        "eyebrow": "OUR VISION",
+        "title": "Fewer, better items. Quality over quantity.",
+        "body": "We believe luxury isn't loud. It's the quiet confidence of something made well, worn often, and loved for years.",
+        "image": "",
+        "imageAlt": ""
+      },
+      {
+        "id": "craftsmanship",
+        "eyebrow": "CRAFTSMANSHIP",
+        "title": "Premium linen, considered cuts",
+        "body": "Every piece is cut for relaxed, put-together ease and made from premium linen chosen for the island's warm days — light, durable, and better with every wear. Sizes S–XL, with custom sizing and colour requests always welcome.",
+        "image": "brand_assets/images/linen-essentials-editorial-portrait-02.webp",
+        "imageAlt": "Linen essentials — close craftsmanship"
+      },
+      {
+        "id": "quality",
+        "eyebrow": "QUALITY COMMITMENT",
+        "title": "Direct, fair, and built to last",
+        "body": "Premium pieces at accessible island pricing, ordered directly from us. We stand behind every garment — and we're a WhatsApp message away if anything isn't right.",
+        "image": "brand_assets/images/linen-shirt-colors-square-06.webp",
+        "imageAlt": "Linen shirt colour variants"
+      }
+    ],
+    "ctaLabel": "Shop the Collection",
+    "ctaTo": "/men"
+  },
+
+  "contact": {
+    "eyebrow": "CONTACT",
+    "heading": "Get in touch",
+    "body": "The quickest way to order or ask anything is a message. We reply personally — sizes, colours, custom pieces and pre-orders all start here.",
+    "form": {
+      "nameLabel": "Full name",
+      "emailLabel": "Email",
+      "messageLabel": "Message",
+      "submitLabel": "Send message",
+      "submittingLabel": "Sending…",
+      "successTitle": "Message received",
+      "successBody": "Thank you — we'll reply personally, usually within a day.",
+      "errorMessage": "Something went wrong. Please try again, or reach us on WhatsApp.",
+      "invalidEmail": "Please enter a valid email.",
+      "requiredMessage": "Please enter a message."
+    },
+    "infoHeading": "Reach us directly",
+    "info": [
+      { "label": "WhatsApp", "value": "+230 5910 2655", "href": "https://wa.me/23059102655" },
+      { "label": "Instagram", "value": "@dolce_attires", "href": "https://www.instagram.com/dolce_attires/" },
+      { "label": "Facebook", "value": "Dolce Attires", "href": "https://www.facebook.com/profile.php?id=61555888167318" },
+      { "label": "Location", "value": "Mauritius", "href": "" }
+    ],
+    "whatsappLabel": "Message us on WhatsApp",
+    "faqHeading": "Frequently asked",
+    "faqs": [
+      { "q": "What sizes do you offer?", "a": "Our pieces run S–XL with a true-to-size, relaxed cut. Custom sizing is available on request — just message us on WhatsApp." },
+      { "q": "How does delivery work?", "a": "We deliver across Mauritius. For delivery times and arrangements, reach us on WhatsApp at +230 5910 2655." },
+      { "q": "How do pre-orders work?", "a": "Choose your colour and size and place a pre-order — we'll confirm availability and arrange everything personally by email or WhatsApp before any payment." },
+      { "q": "What are your pieces made from?", "a": "Premium linen, chosen for breathability and durability in the island's warm climate. Light, relaxed, and better with every wear." },
+      { "q": "How do I care for linen?", "a": "Wash cool, hang or lay flat to dry, and a warm iron brings it back to life. Linen softens beautifully over time." }
+    ]
+  },
+
+  "cart": {
+    "heading": "Your Bag",
+    "itemColorLabel": "Colour",
+    "itemSizeLabel": "Size",
+    "removeLabel": "Remove",
+    "qtyLabel": "Quantity",
+    "summaryHeading": "Order Summary",
+    "subtotalLabel": "Subtotal",
+    "shippingLabel": "Shipping",
+    "shippingValue": "Calculated at checkout",
+    "totalLabel": "Total",
+    "checkoutCtaLabel": "Proceed to Checkout",
+    "continueLabel": "Continue Shopping",
+    "emptyTitle": "Your bag is empty",
+    "emptyBody": "Explore the collection and add a few considered pieces.",
+    "emptyCtaLabel": "Explore the Collection",
+    "recommendationsHeading": "You may also like",
+    "whatsappNote": "For custom orders or pre-orders, message us on WhatsApp 59102655.",
+    "errorMessage": "We couldn't update your bag just now — please try again."
+  },
+
+  "checkout": {
+    "heading": "Checkout",
+    "contactHeading": "Contact",
+    "shippingHeading": "Shipping",
+    "paymentHeading": "Payment",
+    "fields": {
+      "emailLabel": "Email",
+      "nameLabel": "Full name",
+      "addressLabel": "Address",
+      "cityLabel": "City / Town",
+      "phoneLabel": "Phone (WhatsApp)",
+      "noteLabel": "Order note (optional)"
+    },
+    "trustHeading": "Secure & encrypted",
+    "trustBody": "All transactions are secure and encrypted. You'll complete payment securely on our checkout partner — no card is charged on this page.",
+    "manualNote": "Payment is arranged via the store's manual method or on WhatsApp — we'll confirm everything before any charge.",
+    "summaryHeading": "Order Summary",
+    "subtotalLabel": "Subtotal",
+    "shippingLabel": "Shipping",
+    "totalLabel": "Total",
+    "submitLabel": "Place Pre-order",
+    "submittingLabel": "Placing your order…",
+    "successTitle": "Pre-order received",
+    "successBody": "Thank you — we'll confirm the details by email or WhatsApp shortly.",
+    "errorMessage": "We're finalising secure online checkout. To complete your order now, message us on WhatsApp 59102655 — we'll confirm everything and arrange payment.",
+    "emptyTitle": "Your bag is empty",
+    "emptyBody": "Add a piece before checking out.",
+    "emptyCtaLabel": "Explore the Collection",
+    "policyLinks": [
+      { "label": "Privacy", "to": "/contact" },
+      { "label": "Terms", "to": "/contact" },
+      { "label": "Returns", "to": "/contact" }
+    ]
+  },
+
+  "common": {
+    "currencyCode": "MUR",
+    "currencySymbol": "Rs",
+    "loadingLabel": "Loading…",
+    "retryLabel": "Try again",
+    "backToTopLabel": "Back to top",
+    "errorGeneric": "Something went wrong. Please try again."
+  }
+}

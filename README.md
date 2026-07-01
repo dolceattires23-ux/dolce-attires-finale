@@ -1,19 +1,19 @@
-# @babel/helpers
+# @babel/helper-validator-option
 
-> Collection of helper functions used by Babel transforms.
+> Validate plugin/preset options
 
-See our website [@babel/helpers](https://babeljs.io/docs/babel-helpers) for more information.
+See our website [@babel/helper-validator-option](https://babeljs.io/docs/babel-helper-validator-option) for more information.
 
 ## Install
 
 Using npm:
 
 ```sh
-npm install --save-dev @babel/helpers
+npm install --save @babel/helper-validator-option
 ```
 
 or using yarn:
 
 ```sh
-yarn add @babel/helpers --dev
+yarn add @babel/helper-validator-option
 ```
